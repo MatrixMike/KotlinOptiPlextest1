@@ -21,4 +21,12 @@ class SettingsActivity : AppCompatActivity() {
             setPreferencesFromResource(R.xml.root_preferences, rootKey)
         }
     }
+    fun testOne() {
+        val month = 12
+        val days = 28
+        val year = month * days
+
+    }
+
+
 }
