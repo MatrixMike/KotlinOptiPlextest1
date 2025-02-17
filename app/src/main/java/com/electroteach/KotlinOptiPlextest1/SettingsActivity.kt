@@ -22,8 +22,8 @@ class SettingsActivity : AppCompatActivity() {
         }
     }
     fun testOne() {
-        val month = 12
-        val days = 28
+        val month: Int = 12  // explicit type
+        val days    = 28
         val year = month * days
 
     }
